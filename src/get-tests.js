@@ -1,8 +1,10 @@
 const glob = require("glob");
-const Locator = require("./TestRun");
+const Locator = require("./Locator");
+const settings = require("./settings");
 
 module.exports = function() {
-  return glob.sync("cypress/**/*spec.js").map(function(filename) {
+  const testFiles = settings.config.testFiles || "cypress/integration/**/*.*";
+  return glob.sync(testFiles).map(function(filename) {
     return new Locator(filename);
   });
 };

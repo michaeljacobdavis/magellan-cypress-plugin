@@ -1,7 +1,6 @@
 module.exports = class TestRun {
   constructor(options) {
-    this.options = options;
-    this.filename = options;
+    Object.assign(this, options);
   }
 
   getCommand() {
@@ -13,6 +12,6 @@ module.exports = class TestRun {
   }
 
   getArguments() {
-    return ["run", `--spec=${this.options.locator.filename}`];
+    return ["run", `--spec=${this.locator}`];
   }
 };
