@@ -1,4 +1,3 @@
-console.log(require("./src/get-tests")());
 module.exports = {
   initialize: function(argv, options) {
     // plugin.settings.initialize(argv, options);

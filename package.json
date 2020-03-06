@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "glob": "^7.1.6"
+    "glob": "^7.1.6",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {},
   "peerDependencies": {
