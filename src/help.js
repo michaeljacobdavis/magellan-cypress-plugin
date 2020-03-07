@@ -7,5 +7,9 @@ module.exports = {
   group: {
     example: "path/**/*.specs",
     description: "Glob of tests to run"
+  },
+  bucket: {
+    example: "1/3",
+    description: "Current bucket / Total Buckets"
   }
 };
