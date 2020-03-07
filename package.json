@@ -1,7 +1,7 @@
 {
   "name": "magellan-cypress-plugin",
   "version": "1.0.0",
-  "description": "",
+  "description": "A magellan plugin that connects [magellan](https://github.com/TestArmada/magellan) and [cypress](https://www.cypress.io/).",
   "main": "index.js",
   "dependencies": {
     "glob": "^7.1.6",
@@ -16,5 +16,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaeljacobdavis/magellan-cypress-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michaeljacobdavis/magellan-cypress-plugin/issues"
+  },
+  "homepage": "https://github.com/michaeljacobdavis/magellan-cypress-plugin#readme"
 }
